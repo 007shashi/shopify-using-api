@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
+    <title>Coding Assesment L2 boilerplate</title>
+
+</head>
+
+<body>
+    <!-- Your code goes here -->
+    <!-- 6 & 7 Images -->
+    <div id="product-container">
+    <div id="product-image">
+        <img class="product-thumbnail" src="https://images.unsplash.com/photo-1632162451597-2304b4073f0a" alt="Thumbnail" height="400px" width="320">
+        <div id="image-selection"></div>
+    </div>
+
+    <div class="product-details">
+        <!--  1 vendor -->
+        <p id="product-vendor"></p>
+        <!--  2 title -->
+        <h1 id="product-title"></h1>
+        <hr>
+        <!-- 3 Product price -->
+        <b><p id="product-price"></p></b>
+        <!-- 5 Discount -->
+        <p id="product-discount-percentage"></p>
+        <!--  4 Compare_at_price -->
+        <p id="product-compare-at-price"></p><hr>
+        <!-- 8 Color Selector -->
+        <div id="product-color-selector">
+            <p class="colorSelector">Choose a color</p>
+        </div><hr>
+        
+        <!-- 9 Size Selector -->
+        <div id="product-size-selector">
+            <p class="sizeSelector">Choose a Size</p>
+        </div>
+        
+        <!-- 10 quantity -->
+        <div class="container">
+        <div class="quantity">
+            <button id="decrease-quantity">-</button>
+            <span id="quantity">1</span>
+            <button id="increase-quantity">+</button>
+        </div>
+
+        <!-- 11 Cart Button -->
+        <div class="cart-button">
+            
+            <button id="add-to-cart"><i class="uil uil-shopping-bag"></i> Add to Cart</button>
+        </div>  
+        </div><div id="cart-message"></div>
+        <hr>
+        <!-- 12 description -->
+        <div id="product-description"></div>
+    </div>
+    <!-- Happy coding 😊 -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
