@@ -10,8 +10,8 @@
 <img src="https://github.com/007shashi/images/blob/main/Shopify.png" height="300"/>
 
 ## This Project runs on any Browser
-## [Github.io](https://007shashi.github.io/Coding-assessment-l2-Boilerplate-code/)
+## [Github.io](https://007shashi.github.io/shopify-using-api/)
 
 ## Netlify Link
-## [Netlify](https://iotreadymusicplayer.netlify.app/)
+## [Netlify](https://website-using-shopify-api.netlify.app/)
 
